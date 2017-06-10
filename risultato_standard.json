@@ -1,0 +1,2488 @@
+
+{
+    "query_text": "SELECT * FROM `elenco-comuni-italiani.csv\/elenco-comuni-italiani` where `elenco-comuni-italiani`.`Codice Regione`= 19 LIMIT 20",
+    "query_lang": "SQL",
+    "metadata": [
+        {
+            "formatString": "00",
+            "agent": "ipersoft",
+            "name": "Codice Regione",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Citt\u00e0 Metropolitana",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "formatString": "000",
+            "agent": "ipersoft",
+            "name": "Codice Provincia (1)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "formatString": "000",
+            "agent": "ipersoft",
+            "name": "Progressivo del Comune (2)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "formatString": "000000",
+            "agent": "ipersoft",
+            "name": "Codice Comune formato alfanumerico",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Denominazione in italiano",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Denominazione in tedesco",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Ripartizione Geografica",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Ripartizione geografica",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Denominazione regione",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Denominazione Citt\u00e0 metropolitana",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Denominazione provincia",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "formatString": "1|0",
+            "agent": "ipersoft",
+            "name": "Flag Comune capoluogo di provincia",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Sigla automobilistica",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Comune formato numerico",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Comune numerico con 110 province (dal 2010 al 2016)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Comune numerico con 107 province (dal 2006 al 2009)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Comune numerico con 103 province (dal 1995 al 2005)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice Catastale del comune",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Popolazione legale 2011 (09\/10\/2011)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS1 2010",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS2 2010 (3)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS3 2010",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS1 2006",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS2 2006 (3)",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        },
+        {
+            "agent": "ipersoft",
+            "name": "Codice NUTS3 2006",
+            "type": "http:\/\/www.w3.org\/2001\/XMLSchema#string",
+            "dataset": "comuni-italia",
+            "table": "elenco-comuni-italiani.csv\/elenco-comuni-italiani"
+        }
+    ],
+    "head": {
+        "vars": [
+            "v_0",
+            "v_1",
+            "v_2",
+            "v_3",
+            "v_4",
+            "v_5",
+            "v_6",
+            "v_7",
+            "v_8",
+            "v_9",
+            "v_10",
+            "v_11",
+            "v_12",
+            "v_13",
+            "v_14",
+            "v_15",
+            "v_16",
+            "v_17",
+            "v_18",
+            "v_19",
+            "v_20",
+            "v_21",
+            "v_22",
+            "v_23",
+            "v_24",
+            "v_25"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "1"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81001"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Alcamo"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81001"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81001"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81001"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81001"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "A176"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "45314"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "2"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81002"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Buseto Palizzolo"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81002"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81002"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81002"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81002"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "B288"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "3031"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "3"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81003"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Calatafimi-Segesta"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81003"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81003"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81003"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81003"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "B385"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "6938"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "4"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81004"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Campobello di Mazara"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81004"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81004"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81004"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81004"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "B521"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "11580"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81005"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Castellammare del Golfo"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81005"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81005"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81005"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81005"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "C130"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "14603"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "6"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81006"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Castelvetrano"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81006"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81006"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81006"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81006"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "C286"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "31824"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "7"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81007"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Custonaci"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81007"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81007"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81007"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81007"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "D234"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "5392"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "8"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81008"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Erice"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81008"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81008"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81008"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81008"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "D423"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "28012"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "9"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81009"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Favignana"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81009"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81009"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81009"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81009"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "D518"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "4185"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "10"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81010"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Gibellina"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81010"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81010"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81010"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81010"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "E023"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "4264"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "11"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81011"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Marsala"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81011"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81011"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81011"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81011"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "E974"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "80218"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "12"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81012"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Mazara del Vallo"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81012"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81012"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81012"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81012"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "F061"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "49995"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "13"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81013"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Paceco"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81013"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81013"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81013"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81013"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "G208"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "11487"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "14"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81014"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Pantelleria"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81014"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81014"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81014"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81014"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "G315"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "7493"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "15"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81015"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Partanna"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81015"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81015"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81015"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81015"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "G347"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "10854"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "16"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81016"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Poggioreale"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81016"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81016"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81016"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81016"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "G767"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "1534"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "17"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81017"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Salaparuta"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81017"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81017"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81017"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81017"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "H688"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "1721"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "18"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81018"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Salemi"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81018"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81018"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81018"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81018"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "H700"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "10871"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81019"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "Santa Ninfa"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81019"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81019"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81019"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81019"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "I291"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "5095"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            },
+            {
+                "v_0": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "19"
+                },
+                "v_1": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_2": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81"
+                },
+                "v_3": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "20"
+                },
+                "v_4": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81020"
+                },
+                "v_5": {
+                    "type": "literal",
+                    "value": "San Vito Lo Capo"
+                },
+                "v_7": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "5"
+                },
+                "v_8": {
+                    "type": "literal",
+                    "value": "Isole"
+                },
+                "v_9": {
+                    "type": "literal",
+                    "value": "Sicilia"
+                },
+                "v_10": {
+                    "type": "literal",
+                    "value": "-"
+                },
+                "v_11": {
+                    "type": "literal",
+                    "value": "Trapani"
+                },
+                "v_12": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#boolean",
+                    "value": "false"
+                },
+                "v_13": {
+                    "type": "literal",
+                    "value": "TP"
+                },
+                "v_14": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81020"
+                },
+                "v_15": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81020"
+                },
+                "v_16": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81020"
+                },
+                "v_17": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#integer",
+                    "value": "81020"
+                },
+                "v_18": {
+                    "type": "literal",
+                    "value": "I407"
+                },
+                "v_19": {
+                    "type": "literal",
+                    "datatype": "http:\/\/www.w3.org\/2001\/XMLSchema#decimal",
+                    "value": "4415"
+                },
+                "v_20": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_21": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_22": {
+                    "type": "literal",
+                    "value": "ITG11"
+                },
+                "v_23": {
+                    "type": "literal",
+                    "value": "ITG"
+                },
+                "v_24": {
+                    "type": "literal",
+                    "value": "ITG1"
+                },
+                "v_25": {
+                    "type": "literal",
+                    "value": "ITG11"
+                }
+            }
+        ]
+    }
+}
