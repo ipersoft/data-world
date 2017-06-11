@@ -6,11 +6,11 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://query.data.world/sql/ipersoft/comuni-italia");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 //curl_setopt($ch, CURLOPT_POSTFIELDS, "query=SELECT * FROM `elenco-comuni-italiani.csv/elenco-comuni-italiani` where `elenco-comuni-italiani`.`Denominazione in italiano`='Desio'");
-curl_setopt($ch, CURLOPT_POSTFIELDS, "query=SELECT * FROM `elenco-comuni-italiani.csv/elenco-comuni-italiani` where `elenco-comuni-italiani`.`Codice Regione`= 19 LIMIT 20");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "query=SELECT * FROM `elenco-comuni-italiani.csv/elenco-comuni-italiani` where `elenco-comuni-italiani`.`Codice Regione`= 19 LIMIT 5");
 curl_setopt($ch, CURLOPT_POST, 1);
 
 $headers = array();
-$headers[] = "Authorization: Bearer " . $_GET['token']; 
+$headers[] = "Authorization: Bearer " . $_GET['token']; //eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OmlwZXJzb2Z0IiwiaXNzIjoiYWdlbnQ6aXBlcnNvZnQ6OjUxNTYzOWY2LTEzYWQtNGQ4ZC05OTJmLTM2MGJiZjk3OTYwNyIsImlhdCI6MTQ5NjA1MTYyMCwicm9sZSI6WyJ1c2VyX2FwaV93cml0ZSIsInVzZXJfYXBpX3JlYWQiXSwiZ2VuZXJhbC1wdXJwb3NlIjp0cnVlfQ.7vFb58kBRPWH5Cuz8gsZkQ9OgSlzSfLsLgFH6nqE-mC3I78Fz5Idg-P-LQjjp0rD9uB9HfH4jNWdUjL8IBG7ow";
 $headers[] = "Content-Type: application/x-www-form-urlencoded";
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
@@ -35,8 +35,13 @@ foreach ($dati as $key => $dato) {
     foreach ($colonne as $key => $colonna) {
         if (isset($dato[$colonna])) {
             $riga[$intestazione[$n_colonna]["name"]]=$dato[$colonna]["value"];
-        $n_colonna++;
+       	    $n_colonna++;
         }
+	else
+	{
+	    $riga[$intestazione[$n_colonna]["name"]]=null;
+	    $n_colonna++;	
+	}
     }
     $tabella[$n_riga]=$riga;
     $n_riga ++;
